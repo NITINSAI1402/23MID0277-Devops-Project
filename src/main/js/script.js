@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var f=document.getElementById('contactForm');if(f){f.addEventListener('submit',function(e){e.preventDefault();var n=f.elements['name'].value||'Anonymous';alert('Thank you, '+n+'. Your message was sent.');f.reset();})}});

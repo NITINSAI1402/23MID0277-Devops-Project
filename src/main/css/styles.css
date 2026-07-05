@@ -1,0 +1,21 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;font-family:Arial,Helvetica,sans-serif;color:#222}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;background:#0b5;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.brand{font-weight:700;font-size:18px;color:#033}
+.site-nav a{margin-left:14px;color:#033;text-decoration:none}
+.container{max-width:1000px;margin:28px auto;padding:0 20px}
+.hero{padding:40px 20px;background:#f6fffa;border-radius:8px;text-align:center}
+.hero h1{font-size:28px;margin-bottom:12px}
+.hero p{color:#444;margin-bottom:16px}
+.btn{display:inline-block;padding:10px 16px;background:#033;color:#fff;border-radius:6px;text-decoration:none}
+.intro{margin-top:20px}
+.services-list{list-style:none;margin-top:12px}
+.services-list li{padding:10px 0;border-bottom:1px solid #eee}
+.site-footer{padding:18px 20px;text-align:center;border-top:1px solid #eee;margin-top:40px;color:#555}
+.contact-form{max-width:520px;margin-top:16px;display:flex;flex-direction:column}
+.contact-form label{display:flex;flex-direction:column;margin-bottom:12px;color:#333}
+.contact-form input,.contact-form textarea{padding:8px;border:1px solid #ccc;border-radius:4px}
+.jobs{list-style:disc;margin-left:20px;margin-top:12px}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:12px}
+.photo{background:linear-gradient(135deg,#e6f7ff,#f0fff5);padding:36px 12px;border-radius:6px;text-align:center;color:#033}
+@media(max-width:640px){.site-nav{display:none}.site-header{justify-content:space-between}.hero h1{font-size:22px}}
